@@ -7,20 +7,17 @@
         mc:Ignorable="d"
         Title="18" Height="450" Width="800">
     <Grid>
-        <CheckBox x:Name="CB" Content="Вкл\Выкл" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Checked="Checkbox_Click" Unchecked="Checkbox_Unchecked"/>
-        <GroupBox x:Name="GB" Header="Автоматический Вывод" HorizontalAlignment="Left" Height="240" Margin="10,20,0,0" VerticalAlignment="Top" Width="246"/>
-        <StackPanel HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="236" RenderTransformOrigin="0.02,-0.456" Margin="0,0,-2,-13"/>
-        <RadioButton x:Name="rb1" Content="1 КУРС" Checked="rb1_Checked" Margin="31,74,682,341"/>
-        <RadioButton x:Name="rb2" Content="2 КУРС" Checked="rb2_Checked" Margin="28,98,649,302" />
-        <Label  Content=" Список дисциплин" Margin="0,188,0,-161"/>
-        <TextBox x:Name="tb" TextWrapping="Wrap" IsReadOnly="True" Margin="0,206,0,0"/>
-        <StackPanel>
-            </Groupbox>
-            <CheckBox x:Name="CB1" Content="Вкл\Выкл" HorizontalAlignment="Left" Margin="368,13,0,0" VerticalAlignment="Top" Checked="CB1_Click" Unchecked="CB1_Unchecked"/>
-            <GroupBox x:Name="GB1" Header="Ручной вывод" HorizontalAlignment="Left" Height=" 225" Margin="368,33,0,0" VerticalAlignment="Top" Width="256" />
-            <StackPanel HorizontalAlignment="Left" Height="215" VerticalAlignment="Top" Width="246" Margin="0,0,-2,-13">
-            
-            </StackPanel>
-            </Groupbox>
+      <CheckBox x:Name="CB" Content="Вкл\Выкл" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Checked="Checkbox_Click" Unchecked="Checkbox_Unchecked"/>
+<GroupBox x:Name="GB" Header="Автоматический Вывод" HorizontalAlignment="Left" Height="240" Margin="10,20,0,0" VerticalAlignment="Top" Width="246"/>
+<StackPanel HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="236" RenderTransformOrigin="0.02,-0.456" Margin="0,0,-2,-13"/>
+<RadioButton x:Name="rb1" Content="1 КУРС" Checked="rb1_Checked" Margin="31,74,682,341"/>
+<RadioButton x:Name="rb2" Content="2 КУРС" Checked="rb2_Checked" Margin="28,98,649,302" />
+<Label  Content=" Список дисциплин" Margin="0,188,0,-161"/>
+<TextBox x:Name="tb" TextWrapping="Wrap" IsReadOnly="True" Margin="0,206,0,0"/>
+<StackPanel>
+    <GroupBox>
+        <CheckBox x:Name="CB1" Content="Вкл\Выкл" HorizontalAlignment="Left" Margin="368,13,0,0" VerticalAlignment="Top" Checked="CB1_Click" Unchecked="Checkbox_Unchecked"/>
+    </GroupBox>
+</StackPanel>
     </Grid>
 </Window>
