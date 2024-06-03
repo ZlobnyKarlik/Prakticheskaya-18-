@@ -20,6 +20,12 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+            public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
         private void Checkbox_Click(object sender, RoutedEventArgs e)
         {
             if (CB.IsChecked == true) GB.IsEnabled = true;
@@ -27,8 +33,8 @@ namespace WpfApp2
         }
         private void Checkbox_Unchecked(object sender, RoutedEventArgs e)
         {
-            if (CB.IsChecked == false) GB.IsEnabled = false;   
-        }   
+            if (CB.IsChecked == false) GB.IsEnabled = false;
+        }
         private void rb1_Checked(object sender, RoutedEventArgs e)
         {
             tb.Text = "История, Иностр.Яз.";
@@ -39,8 +45,7 @@ namespace WpfApp2
         }
         private void CB1_Click(object sender, RoutedEventArgs e)
         {
-            if (CB1_IsChecked == true)  CB1_IsEnabled = true; 
+            if (CB1.IsChecked == true) CB1.IsEnabled = true;
         }
-
     }
 }
